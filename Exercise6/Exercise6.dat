@@ -1,0 +1,11 @@
+/*********************************************
+ * OPL 12.10.0.0 Data
+ * Author: H_MOUEED
+ * Creation Date: Apr 9, 2022 at 12:19:12 AM
+ *********************************************/
+NumberofCities = 4;
+NumberofRegions = 4; 
+
+SheetConnection File("Ex6_Data.xlsx"); 
+
+Loss from SheetRead(File, "Loss!A1:D4"); 
